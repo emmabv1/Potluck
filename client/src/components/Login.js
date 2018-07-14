@@ -48,7 +48,7 @@ class Login extends Component {
           value={this.state.password}
           onChange={this.handleInputChange}
           />
-          <button class="submit" onClick={this.handleFormSubmit}>Submit</button>
+          <div className="submitBox"><button class="submit" onClick={this.handleFormSubmit}>Submit</button></div>
           <p><NavLink to="">Create Account</NavLink></p>
         </form>
         
